@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function onlyOne(checkbox) {
+            var checkboxes = document.getElementsByName('check')
+            checkboxes.forEach((item) => {
+                if (item !== checkbox) item.checked = false
+            })
+        }
+    </script>   
+</head>
+<body>   
+    <div class="body-all">
+    <div class="top-part">
+            <img 
+                src="https://i.imgur.com/sKBwhKm.png" 
+                class="logo"
+                alt="logo"
+            > 
+            <h1 class="top-left">
+                Northside Youth Soccer League
+            </h1>
+            <h3 class="quote">
+                Football is football, and talent is talent. <br />
+                But the mindset of your team makes all the difference.
+            </h3>
+        </div> 
+        <div class="container">
+            <nav class="menu">
+                <a class="menu-item" href="index.html">Home</a>
+                <a class="menu-item" href="rules.html">Our Rules</a>
+                <a class="menu-item" href="gameInfo.html">Game Information</a>
+                <a class="menu-item" href="registration.html">Register</a>
+            </nav>
+            <div class="parallax">
+                
+            </div>    
+        </div>
+    <div class="event">
+        <h1>
+            <strong>Registration</strong> 
+        </h1>
+    </div>   
+    <Form action="show_data.html"  method="get">
+        <div class="regForm">
+            <fieldset> 
+                    <legend><strong class="strong">Registration Form</strong></legend>
+            <div class="container3">
+                <div class="left"> 
+                    <h2 id="demo"></h2>
+                    <div class="names">
+                            <div>
+                                <strong>Players First Name:</strong>
+                                <input type="text" placeholder="First Name" name="First Name" required>
+                            </div>
+                            <div style="margin-left:5em;" class="name">
+                                <strong>Players Last Name:</strong>
+                                <input type="text" placeholder="Last Name" required name="Last Name">
+                            </div>
+                    </div>
+                    <div class="margTopTen">
+                        <strong>Street Address:</strong>
+                        <input type="text" placeholder="Home Address" class="address" name="address" required>
+                    </div>
+                    <div class="margTopTen">
+                        <strong>City:</strong>
+                        <input type="text" value="Home City" required>
+                        <strong>Zip Code:</strong>
+                        <input type="number" required>
+                    </div>
+                    <div class="margTopTen">
+                        <div>
+                            <strong>Birthdate:</strong>
+                            <input type="date">
+                        </div>   
+                    </div>
+                    <div class="margTopTen">
+                        <strong>Gender:</strong>    
+                        <input type="checkbox" name="Gender" onclick="onlyOne(this)" value="male" >
+                        Male
+                        <input type="checkbox" name="Gender" onclick="onlyOne(this)" value="female" class="gradesSpace">
+                        Female
+                    </div>
+                    <div class="margTopTen">
+                        <strong>Grade:</strong>
+                        <input type="radio" name="grade" value="Pre-School" class="gradesSpace">
+                        Pre-School
+                        <input type="radio" name="grade" value="1st" class="gradesSpace">
+                        1st
+                        <input type="radio" name="grade" value="2nd" class="gradesSpace">
+                        2nd
+                        <input type="radio" name="grade" value="3rd" class="gradesSpace">
+                        3rd
+                        <input type="radio" name="grade" value="4th" class="gradesSpace">
+                        4th
+                        <input type="radio" name="grade" value="5th" class="gradesSpace">
+                        5th
+                    </div>
+                    <div class="margTopTen">
+                        <strong>Parent/Guardian:</strong>
+                        <input type="text" name="parent" required>
+                    </div>
+                    <div class="contactPhone">
+                        <strong>Contact Phone</strong>
+                        <input type="tel" maxlength="15"  placeholder="123-456-789" required>
+                        <strong>E-mail:</strong>
+                        <input type="email" required name="email">
+                    </div>
+                </div> 
+            </div>
+            <div class="right">
+                <img
+                src="https://i.imgur.com/yps3ruM.jpg"
+                class="blueBall"
+                alt="football"
+                >
+            </div>
+            </fieldset> 
+            <!-- School they lived near -->
+            <fieldset>
+                <legend>
+                    <strong class="strong2">
+                        Which Elementary School do you live near?
+                    </strong>
+                </legend>
+                <div class="container2">
+                    <div class="left">
+                        <h3>First Closest School</h3>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="firstSchool" value="AJ Katzenmaier">
+                                AJ Katzenmaier
+                            </div>
+                            <div class="marjorie">
+                                <input type="radio" name="firstSchool" value="Marjorie P Hart">
+                                Marjorie P Hart
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="firstSchool" value="Greenbay">
+                                Greenbay
+                            </div>
+                            <div class="north">
+                                <input type="radio" name="firstSchool" value="North Elementary">
+                                North Elementary
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="firstSchool" value="Howard A Yeager">
+                                Howard A Yeager
+                            </div>
+                            <div class="south">
+                                <input type="radio" name="firstSchool" value="South Elementary">
+                                South Elementary
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h3>Second Closest School</h3>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="secondSchool" value="AJ Katzenmaier">
+                                AJ Katzenmaier
+                            </div>
+                            <div class="marjorie">
+                                <input type="radio" name="secondSchool" value="Marjorie P Hart">
+                                Marjorie P Hart
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="secondSchool" value="Greenbay">
+                                Greenbay
+                            </div>
+                            <div class="north">
+                                <input type="radio" name="secondSchool" value="North Elementary">
+                                North Elementary
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="secondSchool" value="Howard A Yeager">
+                                Howard A Yeager
+                            </div>
+                            <div class="south">
+                                <input type="radio"  name="secondSchool" value="South Elementary">
+                                South Elementary
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Positions Normally Played -->
+            <fieldset>
+                <legend>
+                    <strong class="strong2">
+                        What position(s) do you normally play? (Check all that apply)
+                    </strong>
+                </legend>
+                <div class="twoCol margTop">
+                        <div>
+                            <input type="checkbox" name="positionPlayed" value="Forward">
+                            Forward
+                        </div>
+                        <div class="midfield">
+                            <input type="checkbox" name="positionPlayed" value="Midfield">
+                            Midfield
+                        </div>
+                     </div><!--  If I remove this div then it breaks the form for some odd reason  -->
+                    <div class="twoCol">
+                        <div>
+                            <input type="checkbox" name="positionPlayed" value="Defense">
+                            Defense
+                        </div>
+                        <div>
+                            <input type="checkbox" class="goal" name="positionPlayed" value="Goalkeeper">
+                            Goalkeeper
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Positions want to play -->
+            <fieldset class="regForm">
+                <legend>
+                    <strong class="strong2">
+                        What position(s) do you want to play? (check all that apply)
+                    </strong>
+                </legend>
+                <div class="twoCol margTop">
+                        <div>
+                            <input type="checkbox" name="desiredPosition" value="Forward">
+                            Forward
+                        </div>
+                        <div class="midfield">
+                            <input type="checkbox" name="desiredPosition" value="Midfield">
+                            Midfield
+                        </div>
+                     </div><!--  If I remove this div then it breaks the form for some odd reason  -->
+                    <div class="twoCol">
+                        <div>
+                            <input type="checkbox" name="desiredPosition" value="Defense">
+                            Defense
+                        </div>
+                        <div>
+                            <input type="checkbox" class="goal" name="desiredPosition" value="Goalkeeper">
+                            Goalkeeper
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Already Have a Uniform or Sizes needed -->
+            <fieldset class="regForm body-all">
+                <legend>
+                    <input type="checkbox">
+                    <strong class="strong2">
+                        Already Have a Uniform Jersey Size:
+                    </strong>
+                </legend>
+                <div class="container2">
+                    <div class="left">
+                        <h3>Jersey Size:</h3>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="jerseySize" value="Youth Small">
+                                Youth Small
+                            </div>
+                            <div class="mediumLeft">
+                                <input type="radio" name="jerseySize" value="Medium">
+                                Medium
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="jerseySize" value="Youth Medium">
+                                Youth Medium
+                            </div>
+                            <div class="largeLeft">
+                                <input type="radio" name="jerseySize" value="Large">
+                                Large
+                            </div>
+                        </div>
+                        <div class="twoCol">
+                            <div>
+                                <input type="radio" name="jerseySize" value="Youth Large">
+                                Youth Large
+                            </div>
+                            <div class="xtraL">
+                                <input type="radio" name="jerseySize" value="Extra-Large">
+                                Extra-Large
+                            </div>
+                        </div>
+                        <div class="smallA">
+                            <input type="radio" name="jerseySize" value="Small">
+                            Small
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h3>Shorts Size:</h3>
+                        <div class="twoCol">
+                                <div>
+                                    <input type="radio" name="shortsSize" value="Youth Small">
+                                    Youth Small
+                                </div>
+                                <div class="mediumLeft">
+                                    <input type="radio" name="shortsSize" value="Medium">
+                                    Medium
+                                </div>
+                            </div>
+                            <div class="twoCol">
+                                <div>
+                                    <input type="radio" name="shortsSize" value="Youth Medium">
+                                    Youth Medium
+                                </div>
+                                <div class="largeLeft">
+                                    <input type="radio" name="shortsSize" value="Large">
+                                    Large
+                                </div>
+                            </div>
+                            <div class="twoCol">
+                                <div>
+                                    <input type="radio" name="shortsSize" value="Youth Large">
+                                    Youth Large
+                                </div>
+                                <div class="xtraL">
+                                    <input type="radio" name="shortsSize" value="Extra-Large">
+                                    Extra-Large
+                                </div>
+                            </div>
+                            <div class="smallA">
+                                <input type="radio" name="shortsSize" value="Small">
+                                Small
+                            </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="regForm body-all">
+                    <legend>
+                        <strong class="strong2">
+                            Permission to Play
+                        </strong>
+                    </legend>
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                        Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                        accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                        on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                        sponsored activities, which transportation.
+                    </p>
+                    <br/>
+                    <p>
+                        By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                        cancellation policy and agree to its terms. 
+                    </p>
+                    <div class="parentSign">
+                        Parent/Guardian Signature: 
+                        <input type="text" class="inputOne" name="Parent Signature">
+                        Date:
+                        <input type="date" class="inputTwo" name="Date Signed">
+                    </div>
+                    <br/>
+                    <input type="submit" class="submitReg">     
+            </fieldset>
+            
+        </div>
+    </Form>
+    <!-- FORMATS PHONE NUMBER -->
+    <!-- <script type="text/javascript">
+        document.getElementById("phoneNumber").innerHTML = formatPhoneNumber();
+
+        function formatPhoneNumber(phoneNumberString) {
+            var cleaned = ('' + phoneNumberString).replace(/\D/g, '')
+            var match = cleaned.match(/^(1|)?(\d{3})(\d{3})(\d{4})$/)
+            if (match) {
+                var intlCode = (match[1] ? '+1 ' : '')
+                return [intlCode, '(', match[2], ') ', match[3], '-', match[4]].join('')
+            }
+            return null
+            }
+            formatPhoneNumber('+12345678900') // => "+1 (234) 567-8900"
+            formatPhoneNumber('2345678900')   // => "(234) 567-8900"
+    </script> -->
+    <!-- SHOWS SEASON DYNAMICALLY  -->
+    <script>
+        var d = new Date();
+        var month = 
+            [
+                "January", 
+                "February", 
+                "March", 
+                "April", 
+                "May", 
+                "June", 
+                "July", 
+                "August", 
+                "September", 
+                "October", 
+                "November", 
+                "December"
+            ];
+            // document.getElementById("demo").innerHTML = month[d.getMonth()];
+            document.getElementById("demo").innerHTML = season();
+
+        function season() {
+            var actualMonth = month[d.getMonth()];
+            if (actualMonth === "August" || actualMonth === "September" || actualMonth === "October") {
+                return "Fall Season"
+            } 
+            else if ( actualMonth === "March" || actualMonth === "April" || actualMonth === "May") {
+                return "Spring Season"
+            }
+            else {
+                return "Off Season"
+            }
+        }
+    </script>
+    </div>
+    <footer class="footer">
+        <div class="body-all footer">
+            <div>
+                © Copyright Northside Youth Soccer League
+            </div>
+            <div>
+                <p>
+                    Please email us at <a style="color:bisque;" href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a>.
+                </p>
+                <p>
+                    We will reply to your email as soon as we can, typically within one business day.
+                </p>
+            </div> 
+        </div>                     
+    </footer>
+</body>
+</html>

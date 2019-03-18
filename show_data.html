@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="body-all">
+    <div class="top-part">
+        <img 
+            src="https://i.imgur.com/sKBwhKm.png" 
+            class="logo"
+            alt="logo"
+        > 
+        <h1 class="top-left">
+                Northside Youth Soccer League
+        </h1>
+        <h3 class="quote">
+            Football is football, and talent is talent. <br />
+            But the mindset of your team makes all the difference.
+        </h3>
+    </div> 
+    <div class="container">
+        <nav class="menu">
+            <a class="menu-item" href="index.html">Home</a>
+            <a class="menu-item" href="rules.html">Our Rules</a>
+            <a class="menu-item" href="gameInfo.html">Game Information</a>
+            <a class="menu-item" href="registration.html">Register</a>
+        </nav>
+        <div class="parallax">
+            
+        </div>    
+    </div>
+    <p align=center>&nbsp;</p>
+    <h1 align=center>
+      <font size="+1">
+        The following information has been received and sent to us:
+      </font>
+    </h1>
+
+
+<table border="1" align=center width="400" style="background-color: rgb(58, 204, 102);">
+  <tr style="background-color:  #04384E; color: white;">
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+<h3 style="margin-left: 460px;">Thank you for your registration, someone will contact you shortly!</h3>
+<footer class="footer">
+    <div>
+            © Copyright Northside Youth Soccer League
+    </div>
+    <div>
+        <p>
+            Please email us at 
+            <a style="color:bisque;" href="mailto:nysl@chisoccer.org">
+                nysl@chisoccer.org
+            </a>.
+        </p>
+        <p>
+            We will reply to your email as soon as we can, typically within one business day.
+        </p>
+    </div>              
+</footer>
+</body>
+</html>

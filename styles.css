@@ -1,0 +1,509 @@
+/* Entire Page */
+
+.body-all {
+    width: 1300px;
+    margin: auto;
+}
+/* After Submit */
+
+.afterSub {
+    background-color: #04384E;
+    color: white;
+}
+/* ------------ */
+/* Top Part All Pages */
+.parallax {
+    background-image: url("https://i.imgur.com/CgXlIKp.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote {
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Dancing Script', cursive;
+}
+.top-img {
+    width: 100%;
+    z-index: 0;
+}
+.top-part {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.menu {
+    display: flex;
+    flex-direction: row;    
+    justify-content: flex-start;
+    margin-bottom: -15px;
+}
+.menu-item {
+    background-color: #04384E;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    z-index: 1;
+    /* background-color: greenyellow; */
+    border-style: solid;
+    border-radius: 20%;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.event {
+    background-color: #04384E;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.top-left {
+    font-size: 3em;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;  
+  }
+
+.logo {
+    height:150px;
+    width: 150px;
+    margin-top: 15px;
+    z-index: 1;   
+}
+/* ------- */
+
+
+/* Index HOME PAGE */
+.welcome {
+    margin-right: 270px; 
+}
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-left:10px;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+   
+}
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:10px;
+    width: 800px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;   
+}
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:10px;
+    width: 800px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.schedule {
+    width: 20%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.body-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.imgIndex1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3%;
+    border-width: 2px;  
+    border-color: black;
+    border-style: solid;
+}
+.imgIndex2 {
+    margin-left: 420px;
+    margin-top: 10px;
+    border-radius: 3%;
+    border-width: 2px;  
+    border-color: black;
+    border-style: solid;
+}
+/* -------- */
+/* Rules */
+
+.body-rules {
+    margin-left: 80px;
+    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.break {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 40%;               
+    background-color: black;
+    height: 1px;
+}
+.line2 {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 5%;               
+    background-color: black;
+    height: 1px;
+}
+.line3 {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 2%;               
+    background-color: black;
+    height: 1px;
+}
+.colorHr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color: #D71683;
+    height: 1px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.iconRules {
+    display: flex;
+    flex-direction: row;
+}
+.iconImages {
+    height: 40px;
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.hands {
+    margin-top: 20px;
+}
+/* Game Info */
+.h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 260px;
+    height: 30px;
+    border-radius: 20%;
+}
+.h3Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 250px;
+    height: 30px;
+    border-radius: 20%;
+
+}
+.font {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.over-table {
+    margin-top: 30px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.table {
+    width: 60%;
+    text-align: center;
+    -webkit-box-shadow: -3px 6px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: -3px 6px 5px 0px rgba(0,0,0,0.71);
+    box-shadow: -3px 6px 5px 0px rgba(0,0,0,0.71);
+}
+.sortTables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table2 {
+    margin-left: 10%;
+    column-span: 2;
+}
+.game {
+    display: inline-block;
+    position: relative;
+    margin-left: 2%;
+}
+.cardGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left:140px;
+}
+
+.map {
+    margin: auto;
+    margin-top: 100px;
+    border: solid 1px black;
+    -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.71);
+     box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.71);
+}
+.hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 90%;               
+    background-color: black;
+    height: 1px;
+  }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 280px;
+    height: 390px;
+    border-radius:10%;
+    background-image: url("https://i.imgur.com/xRyvEYZ.jpg");
+    /* background-position: 90px -125px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #B2CFF6; */
+    margin-top: 50px;
+    -webkit-box-shadow: -9px 6px 5px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: -9px 6px 5px 0px rgba(0,0,0,0.71);
+    box-shadow: -9px 6px 5px 0px rgba(0,0,0,0.71);
+    /* Gradient */
+    /* background: rgba(105,250,214,1);
+    background: -moz-linear-gradient(top, rgba(105,250,214,1) 0%, rgba(4,56,78,1) 99%, rgba(233,212,179,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(105,250,214,1)), color-stop(99%, rgba(4,56,78,1)), color-stop(100%, rgba(233,212,179,1)));
+    background: -webkit-linear-gradient(top, rgba(105,250,214,1) 0%, rgba(4,56,78,1) 99%, rgba(233,212,179,1) 100%);
+    background: -o-linear-gradient(top, rgba(105,250,214,1) 0%, rgba(4,56,78,1) 99%, rgba(233,212,179,1) 100%);
+    background: -ms-linear-gradient(top, rgba(105,250,214,1) 0%, rgba(4,56,78,1) 99%, rgba(233,212,179,1) 100%);
+    background: linear-gradient(to bottom, rgba(105,250,214,1) 0%, rgba(4,56,78,1) 99%, rgba(233,212,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69fad6', endColorstr='#e9d4b3', GradientType=0 );   
+    */ 
+} 
+
+.table3 {
+    display: inline-block;
+    position: relative;
+    margin-left: 12%;
+    margin-top:150px;
+    text-align: left;
+    border-spacing: 1em;
+}
+.td2 {
+    padding-left: 1em;
+}
+.dayOneH {
+    background-color: black;
+    color: white;
+}
+.dayOne {
+    background-color: #8ABD5F;
+}
+.dayTwo {
+    background-color: rgb(87, 217, 226);
+}
+.dayThree {
+    background-color: #FFB400;
+}
+.dayFour {
+    background-color: #C4B4F7;
+}
+.dayFive {
+    background-color: #CC7114;
+}
+.dayUnoH {
+    background-color: black;
+    color: white;
+}
+.dayUno {
+    background-color: #8ABD5F;
+}
+.daydos {
+    background-color: rgb(87, 217, 226);
+}
+.dayTres {
+    background-color: #FFB400;
+}
+.dayQuatro {
+    background-color: #C4B4F7;
+}
+
+
+/* Registration Page CSS */
+.margTop {
+    margin-top: 20px;
+}
+/* .regForm {
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+.names {
+    display: flex;
+    flex-direction: row;
+}
+.contactPhone {
+    margin-top:12px; 
+    margin-bottom: 10px;
+}
+.margTopTen {
+    margin-top:10px;
+}
+.address {
+    width:500px; 
+    height:15px;
+}
+.strong {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+}
+.strong2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container3 {
+    width: 100%;
+}
+.left, .right {
+    float: left;
+    width: 50%;
+    color: black;
+}
+.twoCol {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.marjorie {
+    margin-left: 78px;
+}
+.north {
+    margin-left: 119px;
+}
+.south {
+    margin-left: 66px;
+}
+.midfield {
+    margin-left: 122px;
+}
+.goal {
+    margin-left:127px;
+}
+.mediumLeft {
+    margin-left:96px;
+}
+.largeLeft {
+    margin-left:79px;
+}
+.xtraL {
+    margin-left:95px;
+}
+.smallA {
+    margin-top:10px;
+}
+.gradeSchool {
+    margin-top: 10px;
+}
+.closest {
+    display: flex;
+    flex-direction: column;
+}
+.inputOne {
+    width:500px;
+}
+.inputTwo {
+    width:200px;
+}
+.blueBall {
+    height: 180px; 
+    width:150px; 
+    margin-left:500px; 
+    margin-top:100px;
+}
+.parentSign {
+    margin-top:70px;
+}
+.submitReg {
+    margin-top:10px; 
+    height:25px; 
+    width:200px;
+}
+.gradesSpace {
+    margin-left:20px;
+}
+/* Registration End */
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color:#04384E;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1%;
+}
+
